@@ -1,10 +1,10 @@
 {
-  "name": "@uniswap/conedison",
+  "name": "@x-swap-protocol/conedison",
   "version": "0.0.1",
-  "description": "Utilities for Uniswap front-end development",
-  "repository": "https://github.com/Uniswap/conedison",
-  "homepage": "https://github.com/Uniswap/conedison#readme",
-  "bugs": "https://github.com/Uniswap/conedison/issues",
+  "description": "Utilities for XSwap Protocol front-end development",
+  "repository": "https://github.com/XSwapProtocol/conedison",
+  "homepage": "https://github.com/XSwapProtocol/conedison#readme",
+  "bugs": "https://github.com/XSwapProtocol/conedison/issues",
   "files": [
     "dist/"
   ],
@@ -27,9 +27,8 @@
     "release": "semantic-release"
   },
   "keywords": [
-    "utils",
-    "utilities",
-    "uniswap"
+    "xswapprotocol",
+    "xdc"
   ],
   "license": "GPL-3.0-or-later",
   "dependencies": {},
@@ -47,7 +46,7 @@
     "@types/react": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
-    "@uniswap/sdk-core": "^3.1.0",
+    "@x-swap-protocol/sdk-core": "^1.0.1",
     "@walletconnect/ethereum-provider-v1": "npm:@walletconnect/ethereum-provider@^1.8.0",
     "@walletconnect/ethereum-provider-v2": "npm:@walletconnect/ethereum-provider@^2.4.6",
     "babel-jest": "^29.3.0",
@@ -65,7 +64,7 @@
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@uniswap/sdk-core": ">=3",
+    "@x-swap-protocol/sdk-core": ">=1.0.1",
     "ethers": "^5.6.1"
   }
 }

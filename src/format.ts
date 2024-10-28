@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent, Price } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, Percent, Price } from '@x-swap-protocol/sdk-core'
 
 import { Nullish } from './types'
 
